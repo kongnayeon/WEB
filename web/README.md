@@ -1,2 +1,2 @@
 고양이 웹사이트...
-https://kongnayeon.github.io/WEB/
+https://kongnayeon.github.io/WEB/web
