@@ -2,8 +2,18 @@ body {
   margin: 0;
 }
 
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 /* 광고 */
-#ad {
+.ad {
   height: 80px;
 }
 
@@ -15,29 +25,33 @@ iframe {
 }
 
 /* header */
-#header .contents {
+
+.header {
+  position: relative;
+  height: 113px;
+
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.header .contents {
   display: flex;
   width: 980px;
   margin: 0 auto;
   justify-content: space-between;
   padding: 30px 6px 25px 5px;
   background-color: #fff;
+  height: 57px;
 }
 
 .contents h1 {
   display: inline-flex;
   align-items: flex-end;
   height: 53px;
-  font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  align-items: center;
+  margin: 0;
 }
 
 .contents h1 img {
+  display: block;
   object-fit: contain;
   height: 100%;
   width: auto;
@@ -88,4 +102,14 @@ iframe {
   line-height: 1.462em;
   white-space: nowrap;
   transform: translate(-50%, 0);
+}
+
+/* 서브 메뉴 */
+.nav {
+  position: absolute;
+  left: 0;
+  top: 113px;
+  width: 100%;
+  padding: 5px 0;
+  background-color: #fff;
 }
